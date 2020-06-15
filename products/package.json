@@ -1,0 +1,23 @@
+{
+    "name": "aj-products",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ajsobrino/nodejs.git"
+    },
+    "author": "ajsobrino",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ajsobrino/nodejs/issues"
+    },
+    "homepage": "https://github.com/ajsobrino/nodejs#readme",
+    "dependencies": {
+        "mysql2": "^2.1.0",
+        "sequelize": "^5.21.12"
+    }
+}

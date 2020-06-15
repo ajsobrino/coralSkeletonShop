@@ -1,0 +1,16 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var express_1 = require("express");
+var controller = require('../user-controller');
+var bodyParser = require('body-parser');
+var router = express_1.Router();
+router.use(bodyParser.json());
+router.get('/user', controller.login);
+router.post('/user', controller.create);
+router.patch('/user', controller.update);
+router.delete('/user', controller.remove);
+router.options('/user', controller.option);
+router.get('/user/:id/:fuck', controller.login);
+//console.log(req.params);
+//console.log(req.query);
+exports.default = router;
