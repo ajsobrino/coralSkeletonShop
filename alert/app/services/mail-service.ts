@@ -4,8 +4,8 @@ import Mail from 'nodemailer/lib/mailer';
 export default class MailService {
 
     static instance: MailService
-    email: string = 'ajsobrinodeveloper@gmail.com';
-    password: string = 'aj071696';
+    email: string = '';
+    password: string = '';
     static mail: Mail;
     constructor() {
         MailService.mail = createTransport({
